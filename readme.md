@@ -1,3 +1,5 @@
+
+<h1>Used Postman to perform any action</h1>
 <h2>User role based login system </h2>
 <h3>users are:patient,doctor,admin</h3>
 <h3>patient can update his profile and read his profile only</h3>
@@ -9,6 +11,10 @@ System will start localy at port:3000<br>
 Go to postman and used url <h1>localhost:3000/signup</h1>
 keep method as Post:<br>
 provide your email,password,role as key and hit send:<br>
-See this image:(https://github.com/devil-cyber/role_based_login/blob/master/Screenshot%20(61).png)
-
- 
+See this image:(https://github.com/devil-cyber/role_based_login/blob/master/Screenshot%20(61).png)<br>
+To get the user used <h1>localhost:3000/users</h1>
+Provide x-acess-token that you will get after login as a admin/doctor:<br>
+See this image:(https://github.com/devil-cyber/role_based_login/blob/master/Screenshot%20(62).png)<br>
+Doctor can update the user and extend <br>
+But an admin can delete the user by using the x-acess-token<br>
+see the image:(https://github.com/devil-cyber/role_based_login/blob/master/Screenshot%20(63).png)<br>
